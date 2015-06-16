@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
-a.test{
+#Attr{
 	font-weight:bold;
+	background-color:#C13234;
 	}
 

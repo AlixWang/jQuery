@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="./main.css">
+<meta charset="utf-8">
+<title>Demo</title>
+</head>
+	
+<body>
+	<h1>this is the h1 element</h1>
+	<a href="http://jquery.com/">jQuery</a>
+    <script src="../jquery-2.1.4.js"></script>
+    <script>
+		//select element by ID
+		$("#id_name")
+		//select element by Class Name
+		$(".class_name")
+		//select element by attribute
+		$("element_name[attr_name='attr_value']")
+		//select element by compound css selector
+		$("#id_name element.class_name element")	//$(#div1 form.input1 h1)
+		//pseudo selectors
+		$("tr:odd")
+		$("a.external:first")
+		$("#myform:input")
+		$("div:visible")
+		$("div:gt(2)")
+		$("div:animated")
+		
+    </script>
+</body>
+	
+</html>

@@ -7,14 +7,16 @@
 </head>
 	
 <body>
+	<h1>this is the h1 element</h1>
 	<a href="http://jquery.com/">jQuery</a>
     <script src="../jquery-2.1.4.js"></script>
-    <script src="../prototype.js"></script>
     <script>
-		//Puting jQuery Into No-Conflict Mode
-		$j = jQuery.noConflict();
-		//$j now is an alias to the jQuery function;
+		//use .attr() method to set or get the elements attributes
+		//SET
+		$('h1').attr('id'/*attribute name*/,'Attr'/*attribute value*/);
+		//GET
+		console.log($('h1').attr('id'));	// Attr 
     </script>
 </body>
-	<h1>this is the h1 element<h1>
+	
 </html>
