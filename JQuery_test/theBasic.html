@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="./main.css">
+<meta charset="utf-8">
+<title>Demo</title>
+</head>
+	
+<body>
+	<a href="http://jquery.com/">jQuery</a>
+    <script src="../jquery-2.1.4.js"></script>
+    <script>
+    	//You code goes here.
+		/*$(document).ready(function(e) {
+            $("a").click(function(event){
+					//alert("welcome to click me !!");
+					$(this).hide("slow");
+					$(this).show("fast");
+					event.preventDefault();
+				});
+        });
+		$("a").addClass('test');*/
+		//removeClass API
+		/*setTimeout(function(){
+			$('a').removeClass('test');
+			},3000);*/
+			
+		$.get('www.baidu.com/index.html',function(){
+			console.log("the jQuery page is onload");
+			});
+    </script>
+</body>
+</html>
