@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="./main.css">
+<meta charset="utf-8">
+<title>Demo</title>
+</head>
+	
+<body>
+	<a href="http://jquery.com/">jQuery</a>
+    <script src="../jquery-2.1.4.js"></script>
+    <script>
+		// $(document).ready(function(){});
+    	$(document).ready(function(e) {
+            console.log("the function will excuted when the document is ready");
+        });
+		//shorthand for $(document).ready(function(){});
+		$(function(e){
+				console.log("this is the shorthand for $(document).rady()");
+			})
+			
+		//there is the $(window).load() will run once the entire page (image or iframes),
+		//,not only the DOM
+		$(window).onload(
+			function(e){
+					console.log("this will run until the full page loaded");
+				}
+		);
+    </script>
+</body>
+	<h1>this is the h1 element<h1>
+</html>
